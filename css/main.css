@@ -1,24 +1,51 @@
 /* general */
- * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+  * {
+      
+      box-sizing: border-box;
+ }
 
 /* body */
 body {
     font-family: sans-serif;
     font-size: 16px;
-    background: rgba (0,0,0,.5)
+    background:#d8d8d8;
 }
 
 /* Header */
+ 
 .main-header {
-    margin-bottom: 50px;
-    padding: 15px
-    text-align: center ;
-    background-color: black ;
-}
+    
+    
+    text-align: center;
+    background-color: white ;
+    
+ }
   .logo{
       vertical-align: middle;
   }
+
+     
+  /* layout */
+
+  .conteiner {
+      display: none;
+      font-size: 60px;
+      width: 1170px;
+      margin: 0 auto;
+    }
+    
+    .box {
+        display: inline-block;
+        width: 300px;
+        height:300px;
+        margin: 50px;
+
+
+
+    }
+
+    inline-box {
+             width: 20px;
+             height: 40px;
+             background: dodgerblue
+    } 
