@@ -1,7 +1,8 @@
 /* general */
  * {
     padding: 0;
-    margin: 
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* body */
@@ -16,6 +17,8 @@ body {
     margin-bottom: 50px;
     padding: 15px
     text-align: center ;
-    background-color: #fff ;
-    
+    background-color: black ;
 }
+  .logo{
+      vertical-align: middle;
+  }
