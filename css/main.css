@@ -16,7 +16,7 @@ body {
 .main-header {
     
     
-    text-align: center;
+    text-align: left;
     background-color: white ;
     
  }
@@ -25,14 +25,12 @@ body {
   }
 
      
-  /* layout */
-
-  .conteiner {
-      display: none;
-      font-size: 60px;
-      width: 1170px;
-      margin: 0 auto;
-    }
+  .container {
+      background-color: white;
+      max-width: 1170px;
+      height: 600px;
+      margin: auto;
+  }
     
     .box {
         display: inline-block;
