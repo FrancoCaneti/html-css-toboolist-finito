@@ -7,7 +7,7 @@
 
 /* body */
 body {
-    font-family: papyrus ;
+    font-family: georgia ;
     font-size: 16px; 
     background:#d8d8d8;
 }
@@ -39,14 +39,26 @@ body {
   .box {
       font-family: sans-serif;
       display: inline-block;
-      color: white;
-    background-color: blue;
+      color: black;
+    background-color: gold;
     width: 80px;
     border: 1px solid rgb(0, 0, 0);
     padding: 0; 
     margin: 20px;
     border-radius: 5px;
   }
+ .box-2 {  
+     font-family: sans-serif;
+    display: inline;
+    color: white;
+  background-color: rgb(255, 0, 0);
+  width: 80px;
+  border: 1px solid rgb(0, 0, 0);
+  padding: 0; 
+  margin: 20px;
+  border-radius: 5px;
+
+ }
    /*check*/
    .check {
        list-style: none;
